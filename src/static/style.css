@@ -1,0 +1,17 @@
+input[type=number] {
+    width: 3em;
+}
+tr .remove-result {
+    color: #F00;
+}
+tr:hover .remove-result {
+    cursor: pointer;
+    text-decoration: underline;
+}
+tbody:empty:after {
+  color: #ACABAF;
+  content: "No bookings found yet";
+  display: block;
+  font-style: italic;
+  padding: 15px;
+}
